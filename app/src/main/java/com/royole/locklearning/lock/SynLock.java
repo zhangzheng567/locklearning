@@ -7,7 +7,7 @@ import java.util.concurrent.BlockingQueue;
  * @date : 2019/9/25
  * @description :
  */
-public class RoLock {
+public class SynLock {
     volatile boolean mIsLock = false;
     public synchronized void lockCurrentObject() {
         System.out.println("lockCurrentObject");
